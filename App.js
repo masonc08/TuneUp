@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { MainScreen } from './lib/screens'
+import { MainScreen, PlayScreen } from './lib/screens'
 import { getSpotifyToken } from '@/services/spotify';
 
 const App = () => {
   const [auth, setAuth] = useState('');
+  const [songs, setSongs] = useState(null);
   useEffect(() => {
     getSpotifyToken(setAuth);
   }, []);
   return (
-    <MainScreen token={auth}/>
+    songs ?
+      <PlayScreen songs={songs}/> :
+      <MainScreen token={auth} setSongs={setSongs}/>
   );
 }
 
