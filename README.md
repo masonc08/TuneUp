@@ -1,8 +1,10 @@
 # TuneUp
-A mobile minigame to fuel the hearts of music lovers worldwide
+TuneUp is a React Native based mobile game, challenging players of how well they really know their music.
+
+Players can pick any arbitrary Spotify playlist, and will be quizzed on the name of a song picked at random, given a short 30-second snippet of the track.
 
 # Server
-This app uses a backend server [TuneUpApi](https://github.com/masonc08/TuneUpApi), hosted by AWS EC2
+TuneUp uses a backend server [TuneUpApi](https://github.com/masonc08/TuneUpApi), currently hosted on AWS EC2.
 
 # Demo
 ![Home Page Navigation](demo.gif)
