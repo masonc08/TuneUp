@@ -5495,10 +5495,10 @@ react-native-swift@^1.2.3:
     "@raydeck/xcode" "^2.2.0"
     glob "^7.1.2"
 
-react-native-track-player@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/react-native-track-player/-/react-native-track-player-1.2.2.tgz#97e6d956ac2de70ed24b2665799d48075750b1e9"
-  integrity sha512-+Fv+dF4D8TRkq9kQ9sWKfqYmmvjkKaA4wGG+PRQO3aHRHnaswZG5o9TFbbY7xaLWNTxmmcSMR0YNcMm/Of91xQ==
+react-native-track-player@^2.0.0-rc10:
+  version "2.0.0-rc9"
+  resolved "https://registry.yarnpkg.com/react-native-track-player/-/react-native-track-player-2.0.0-rc9.tgz#ac2036bcb8844d1e05b9367849abd0c90c6e11ea"
+  integrity sha512-NAQyvAuU86VGPR45VFZLpsigNaxWZOAyigs7BxJfO8gknX22o/4408o2KDi+BbewsjL09g/Z52yg90KIhsj0PQ==
 
 react-native@0.61.5:
   version "0.61.5"
