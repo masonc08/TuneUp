@@ -10,7 +10,7 @@ const App = () => {
   }, []);
   return (
     songs ?
-      <PlayScreen songs={songs}/> :
+      <PlayScreen songs={songs} setSongs={setSongs}/> :
       <MainScreen token={auth} setSongs={setSongs}/>
   );
 }
