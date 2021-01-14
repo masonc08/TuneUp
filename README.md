@@ -7,4 +7,6 @@ Players can pick any arbitrary Spotify playlist, and will be quizzed on the name
 TuneUp uses a backend server [TuneUpApi](https://github.com/masonc08/TuneUpApi), currently hosted on AWS EC2.
 
 # Demo
+https://youtu.be/31Xd8P0Mjxg
+
 ![Home Page Navigation](demo.gif)
